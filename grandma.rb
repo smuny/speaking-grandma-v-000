@@ -1,8 +1,11 @@
-def speak_to_grandma("string")
-  if string == string.downcase
-    return "HUH?! SPEAK UP SONNY!"
-  elsif string == string.upcase
+
+def speak_to_grandma(string)
+  if string == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+  elsif string == string.upcase
+    return "NO, NOT SINCE 1938!"
+  else 
+    return "HUH?! SPEAK UP, SONNY!" #if it's usually requiring two or more statements, then it's probably a default and should be used as an ELSE
   end
 end
 
